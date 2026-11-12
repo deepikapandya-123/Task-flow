@@ -1,0 +1,28 @@
+.sideBarBox{
+    width: 250px;
+    min-height: 100vh;
+    background-color: #241b4b;
+    padding: 24px 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}    
+
+.sideBarBox ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.sideBarTab {
+    padding: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.sideBarTab:hover{
+    background-color: #493b78;
+}
