@@ -1,0 +1,88 @@
+
+.taskItem {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #eeeeee;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: all 0.3s ease;
+}
+
+.taskItem:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskTitle {
+  font-size: 16px;
+  color: #241b4b;
+  margin: 0;
+}
+
+.taskMenu {
+  border: none;
+  background: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.taskDueDate {
+  font-size: 13px;
+  color: #888888;
+  margin: 0;
+}
+
+.taskFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.taskStatus,
+.taskPriority {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pending {
+  background-color: #fff3cd;
+  color: #a87900;   
+}
+
+.in-progress {
+  background-color: #e0edff;
+  color: #2865b0;
+}
+
+.completed {
+  background-color: #dcfce7;
+  color: #16803d;
+}
+
+.high {
+  background-color: #fee2e2;
+  color: #c53030;
+}
+
+.medium {
+  background-color: #fef3c7;
+  color: #a16207;
+}
+
+.low {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}

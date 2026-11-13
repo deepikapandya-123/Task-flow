@@ -1,0 +1,43 @@
+
+.statCard {
+  background-color: #ffffff;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #eeeeee;
+  width: 25%;
+}
+
+.statCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.statCard h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #241b4b;
+  margin: 0;
+}
+
+.statCard p {
+  font-size: 14px;
+  color: #777777;
+  margin: 0;
+}
+
+.statCard .statIcon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #f0ebff;
+  color: #7045c2;
+}
